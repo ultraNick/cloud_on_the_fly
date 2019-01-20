@@ -38,10 +38,10 @@ USE_TZ = True
 # ------------------------------------------------------------------------------
 # https://docs.djangoproject.com/en/dev/ref/settings/#databases
 
-DATABASES = {
+"""DATABASES = {
     'default': env.db('DATABASE_URL', default='postgres:///cloud_on_the_fly'),
 }
-DATABASES['default']['ATOMIC_REQUESTS'] = True
+DATABASES['default']['ATOMIC_REQUESTS'] = True"""
 
 # URLS
 # ------------------------------------------------------------------------------
