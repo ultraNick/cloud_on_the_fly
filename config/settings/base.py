@@ -231,7 +231,7 @@ ADMINS = [
 # https://docs.djangoproject.com/en/dev/ref/settings/#managers
 MANAGERS = ADMINS
 
-# Celery
+"""# Celery
 # ------------------------------------------------------------------------------
 INSTALLED_APPS += ['cloud_on_the_fly.taskapp.celery.CeleryAppConfig']
 if USE_TZ:
@@ -252,7 +252,7 @@ CELERY_RESULT_SERIALIZER = 'json'
 CELERYD_TASK_TIME_LIMIT = 5 * 60
 # http://docs.celeryproject.org/en/latest/userguide/configuration.html#task-soft-time-limit
 # TODO: set to whatever value is adequate in your circumstances
-CELERYD_TASK_SOFT_TIME_LIMIT = 60
+CELERYD_TASK_SOFT_TIME_LIMIT = 60"""
 # django-allauth
 # ------------------------------------------------------------------------------
 ACCOUNT_ALLOW_REGISTRATION = env.bool('DJANGO_ACCOUNT_ALLOW_REGISTRATION', True)
